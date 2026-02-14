@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+    DirectoryIndex index.php
+
+    RewriteEngine On
+
+    # ========================
+    # CORS Headers (Add this section)
+    # ========================
+    <IfModule mod_headers.c>
+        # Always set Vary to prevent caching issues
+        Header always set Vary "Origin"
+        
+        # Handle preflight requests
+        RewriteCond %{REQUEST_METHOD} OPTIONS
+        RewriteRule ^(.*)$ $1 [R=200,L,E=HTTP_ORIGIN:%{HTTP:ORIGIN}]
+        
+        # Set CORS headers for API routes
+        SetEnvIf Origin "^(https://bridgevise\.com)$" CORS_ALLOW_ORIGIN=$1
+        Header always set Access-Control-Allow-Origin %{CORS_ALLOW_ORIGIN}e env=CORS_ALLOW_ORIGIN
+        Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, PUT, DELETE"
+        Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"
+        Header always set Access-Control-Allow-Credentials "true"
+        
+        # Remove duplicate headers (critical for Cloudflare)
+        Header unset Access-Control-Allow-Origin
+        Header unset Ccess-Control-Allow-Origin
+    </IfModule>
+
+    # ========================
+    # Existing Rules (Keep these)
+    # ========================
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Handle X-XSRF-Token Header
+    RewriteCond %{HTTP:x-xsrf-token} .
+    RewriteRule .* - [E=HTTP_X_XSRF_TOKEN:%{HTTP:X-XSRF-Token}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
