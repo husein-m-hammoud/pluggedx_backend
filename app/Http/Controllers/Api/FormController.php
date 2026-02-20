@@ -28,7 +28,7 @@ class FormController extends Controller
 
 	Mail::to([
 			'husein.m.hammoud@gmail.com',
-			// 'info@pluggedx.com'
+			'info@pluggedx.com'
 	])->send(new WebsiteFormMail($data));
 
         // Send to User (if email is provided)
