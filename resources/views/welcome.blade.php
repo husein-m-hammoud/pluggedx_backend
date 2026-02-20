@@ -51,7 +51,7 @@
         </header>
         <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
             <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
-               <img src="{{ asset('assets/bridgevise_logo.png') }}" alt="Laravel Logo" class="w-full lg:w-1/2 mb-6 lg:mb-0 lg:mr-6">
+               <img src="{{ asset('assets/pluggedx_logo.png') }}" alt="Laravel Logo" class="w-full lg:w-1/2 mb-6 lg:mb-0 lg:mr-6">
             </main>
         </div>
 

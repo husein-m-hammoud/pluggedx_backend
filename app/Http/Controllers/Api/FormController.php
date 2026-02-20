@@ -28,12 +28,12 @@ class FormController extends Controller
 
 	Mail::to([
 			'husein.m.hammoud@gmail.com',
-			'admin@bridgevise.com'
+			// 'info@pluggedx.com'
 	])->send(new WebsiteFormMail($data));
 
         // Send to User (if email is provided)
-        if (!empty($data['from_email'])) {
-            Mail::to($data['from_email'])->send(new WebsiteUserConfirmation($data));
+        if (!empty($data['email'])) {
+            Mail::to($data['email'])->send(new WebsiteUserConfirmation($data));
         }
 
         return response()->json(['message' => 'Email sent successfully']);
@@ -97,7 +97,7 @@ class FormController extends Controller
         // Send to admin
         Mail::to([
             'husein.m.hammoud@gmail.com',
-            'Admin@bridgevise.com'
+            'info@pluggedx.com'
         ])->send(new WebsiteFormMail($data));
 
         // Send confirmation to user

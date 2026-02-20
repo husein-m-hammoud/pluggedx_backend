@@ -18,7 +18,7 @@
         RewriteRule ^(.*)$ $1 [R=200,L,E=HTTP_ORIGIN:%{HTTP:ORIGIN}]
         
         # Set CORS headers for API routes
-        SetEnvIf Origin "^(https://bridgevise\.com)$" CORS_ALLOW_ORIGIN=$1
+        SetEnvIf Origin "^(https://pluggedx\.com)$" CORS_ALLOW_ORIGIN=$1
         Header always set Access-Control-Allow-Origin %{CORS_ALLOW_ORIGIN}e env=CORS_ALLOW_ORIGIN
         Header always set Access-Control-Allow-Methods "POST, GET, OPTIONS, PUT, DELETE"
         Header always set Access-Control-Allow-Headers "Content-Type, Authorization, X-Requested-With"

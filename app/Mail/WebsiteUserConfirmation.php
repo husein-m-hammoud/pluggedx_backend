@@ -21,7 +21,7 @@ class WebsiteUserConfirmation extends Mailable
 
     public function build()
     {
-        return $this->subject('We’ve Received Your Message - Data FX')
+        return $this->subject('We’ve Received Your Message - PluggedX')
             ->view('emails.website_user_confirmation');
     }
 }

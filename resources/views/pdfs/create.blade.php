@@ -276,7 +276,7 @@ function replaceParagraphsAndRemoveFooter() {
         const contactContent = `<p class="paragraph heading-3"${originalStyle}><br>
 	Phone: + 7 909 366 8325
 	<br>
-	email: info@Bridgevise.com
+	email: info@pluggedx.com
 	<br>
 	Address: 5th Floor, Ashmoun Bldg, Bechara Al Khoury Srt, Beirut, Lebanon
 in 15+ countries</p>`;
