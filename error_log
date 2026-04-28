@@ -1,0 +1,150 @@
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:30:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:33 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:33 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:36 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:36 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:48 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:36:48 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:12 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:26 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:26 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:26 America/Boise] PHP Warning:  require(/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php): Failed to open stream: No such file or directory in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10
+[20-Feb-2026 14:40:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home4/datafxne/public_html/website_6f498b25/backend/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /home4/datafxne/public_html/website_6f498b25/backend/artisan:10
+Stack trace:
+#0 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/artisan on line 10

@@ -1,0 +1,72 @@
+[20-Feb-2026 21:47:24 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:387) in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#2 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php on line 322
+[20-Feb-2026 21:49:58 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:387) in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#2 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php on line 322
+[20-Feb-2026 21:49:59 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:387) in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#2 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php on line 322
+[20-Feb-2026 21:50:50 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:387) in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#2 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php on line 322
+[20-Feb-2026 21:51:38 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:387) in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#2 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php on line 322
+[20-Feb-2026 21:53:14 UTC] PHP Fatal error:  Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:387) in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php:322
+Stack trace:
+#0 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#1 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(2, 'Cannot modify h...', '/home4/datafxne...', 322)
+#2 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(322): header('HTTP/1.1 500 In...', true, 500)
+#3 /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php(401): Symfony\Component\HttpFoundation\Response->sendHeaders()
+#4 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(219): Symfony\Component\HttpFoundation\Response->send()
+#5 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(196): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(Illuminate\Encryption\MissingAppKeyException))
+#6 /home4/datafxne/public_html/website_6f498b25/backend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(256): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(Illuminate\Encryption\MissingAppKeyException))
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(Illuminate\Encryption\MissingAppKeyException))
+#8 {main}
+  thrown in /home4/datafxne/public_html/website_6f498b25/backend/vendor/symfony/http-foundation/Response.php on line 322
