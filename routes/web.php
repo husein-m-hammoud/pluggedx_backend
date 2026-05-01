@@ -3,8 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PluginController;
-use App\Http\Controllers\VpsPlanController;
-use App\Http\Controllers\DedicatedServerController;
+use App\Http\Controllers\HostingCategoryController;
+use App\Http\Controllers\HostingPlanController;
 
 
 
@@ -36,8 +36,8 @@ Route::get('/', [PluginController::class, 'index'])->name('home');
 */    
 
 Route::resource('plugins', PluginController::class);
-Route::resource('vps-plans', VpsPlanController::class);
-Route::resource('dedicated-servers', DedicatedServerController::class);
+Route::resource('hosting-categories', HostingCategoryController::class);
+Route::resource('hosting-plans', HostingPlanController::class);
 
 
 Route::middleware(['auth'])->prefix('admin')->group(function () {

@@ -32,9 +32,38 @@
 </div>
 
 <div class="mb-3">
-    <label>Icon</label>
-    <input type="text" name="icon" class="form-control"
-           value="{{ old('icon', $plugin->icon ?? '') }}">
+    <label class="form-label">Icon</label>
+    @php
+    $icons = [
+        'BarChart3'   => 'BarChart3 — Analytics / Charts',
+        'LineChart'   => 'LineChart — Line Charts / Trends',
+        'PieChart'    => 'PieChart — Pie / Distribution',
+        'TrendingUp'  => 'TrendingUp — Growth / Performance',
+        'ArrowUpDown' => 'ArrowUpDown — Trading / Orders',
+        'Wallet'      => 'Wallet — Finance / Funds',
+        'Users'       => 'Users — Multi-user / Groups',
+        'UsersRound'  => 'UsersRound — Team / Community',
+        'Shield'      => 'Shield — Security / Protection',
+        'ShieldCheck' => 'ShieldCheck — Verified / Compliance',
+        'Lock'        => 'Lock — Private / Secured',
+        'Network'     => 'Network — Connectivity / Infrastructure',
+        'Globe'       => 'Globe — Global / Web',
+        'Zap'         => 'Zap — Speed / High-Performance',
+        'Settings'    => 'Settings — Configuration / Admin',
+        'Clock'       => 'Clock — Time / Scheduling',
+        'Copy'        => 'Copy — Copy Trading / Replication',
+    ];
+    $selected = old('icon', $plugin->icon ?? '');
+    @endphp
+    <select name="icon" class="form-select">
+        <option value="">— No icon —</option>
+        @foreach($icons as $value => $label)
+            <option value="{{ $value }}" {{ $selected === $value ? 'selected' : '' }}>
+                {{ $label }}
+            </option>
+        @endforeach
+    </select>
+    <div class="form-text">Icon name maps to a <a href="https://lucide.dev/icons/" target="_blank">Lucide</a> icon shown on the products page.</div>
 </div>
 
 <hr>

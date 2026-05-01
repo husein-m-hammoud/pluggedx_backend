@@ -15,13 +15,13 @@
            class="nav-link text-white {{ request()->routeIs('plugins.*') ? 'border-bottom border-primary fw-semibold' : '' }}">
             Plugins
         </a>
-        <a href="{{ route('vps-plans.index') }}"
-           class="nav-link text-white {{ request()->routeIs('vps-plans.*') ? 'border-bottom border-primary fw-semibold' : '' }}">
-            VPS Plans
+        <a href="{{ route('hosting-categories.index') }}"
+           class="nav-link text-white {{ request()->routeIs('hosting-categories.*') ? 'border-bottom border-primary fw-semibold' : '' }}">
+            Hosting Categories
         </a>
-        <a href="{{ route('dedicated-servers.index') }}"
-           class="nav-link text-white {{ request()->routeIs('dedicated-servers.*') ? 'border-bottom border-primary fw-semibold' : '' }}">
-            Dedicated Servers
+        <a href="{{ route('hosting-plans.index') }}"
+           class="nav-link text-white {{ request()->routeIs('hosting-plans.*') ? 'border-bottom border-primary fw-semibold' : '' }}">
+            Hosting Plans
         </a>
     </div>
 </nav>
